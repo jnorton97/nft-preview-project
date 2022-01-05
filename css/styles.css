@@ -1,0 +1,165 @@
+body {
+  text-align: center;
+  margin: 0;
+  background: hsl(217, 54%, 11%);
+  color: white;
+  font-family: Outfit;
+  font-size: 18px;
+}
+
+hr {
+  height: 0;
+  border-width: 1px 0 0;
+  border-style: solid;
+  border-color: hsl(215, 32%, 27%);
+}
+
+h3 {
+  color: white;
+  font-weight: 600;
+}
+
+h3:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+  transition: ease 0.5s;
+}
+
+.card {
+  background: hsl(216, 50%, 16%);
+  border-radius: 12px;
+  color: hsl(215, 51%, 70%);
+  height: 500px;
+  width: 290px;
+  text-align: left;
+  margin: 100px auto;
+  padding: 18px;
+  position: relative;
+  font-weight: 300;
+}
+
+.card-image {
+  background-color: hsl(178, 100%, 50%);
+  height: 290px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.equilibrium {
+  height: 290px;
+  width: 290px;
+  border-radius: 10px;
+  opacity: 1;
+  transition: .5s ease;
+}
+
+.card-image:hover {
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+.card-image:hover .equilibrium{
+opacity: 0.3;
+transition: .5s ease;
+}
+
+.card-image:hover .middle {
+opacity: 1;
+transition: .5s ease;
+}
+
+.middle {
+  opacity: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  position: absolute;
+  transition: .5s ease;
+}
+
+.value {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.ethereum {
+  display: flex;
+  float: left;
+  margin-right: 5px;
+  vertical-align:middle;
+}
+
+.cost {
+  color: hsl(178, 100%, 50%);
+  display: inline;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.clock {
+  margin-right: 5px;
+  height: 17px;
+  width: 17px;
+}
+
+.three-days-left {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  float: left;
+  margin: 8px 8px 8px 0;
+  border: 1px solid white;
+  border-radius: 100px;
+  height: 22px;
+  width: 22px;
+}
+
+.bottomtext {
+  font-weight: 300;
+}
+
+.Jules-Wyvern {
+  color: white;
+}
+
+.Jules-Wyvern:hover {
+  color: hsl(178, 100%, 50%);
+  transition: .5s ease;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+  text-indent: -9999px; /* REMOVE THIS AT END */
+  font-size: 11px;
+  text-align: center;
+  }
+
+
+.attribution a {
+  text-indent: -9999px;  /* REMOVE THIS AT END */
+  color: hsl(228, 45%, 44%);
+}
